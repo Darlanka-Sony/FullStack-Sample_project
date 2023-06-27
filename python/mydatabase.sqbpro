@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/sony/Desktop/Full stack/SRKR/python/mydatabase.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="125"/><column_width id="3" width="968"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,9:mainemployees"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="employees" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="52"/><column index="2" value="88"/><column index="3" value="61"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 1">-- SELECT*FROM employees;
+-- INSERT INTO employees(name,salary) VALUES(&quot;sony&quot;,30000);
+-- INSERT INTO employees(name,salary) VALUES(&quot;seethu&quot;,10000);
+-- INSERT INTO employees(name,salary) VALUES(&quot;sweety&quot;,20000);
+-- INSERT INTO employees(name,salary) VALUES(&quot;siri&quot;,40000);
+-- INSERT INTO employees(name,salary) VALUES(&quot;sindhu&quot;,50000);
+-- INSERT INTO employees(name,salary) VALUES(&quot;saisri&quot;,60000);
+-- INSERT INTO employees(name,salary) VALUES(&quot;sheha&quot;,70000);
+-- INSERT INTO employees(name,salary) VALUES(&quot;sunitha&quot;,80000);
+-- INSERT INTO employees(name,salary) VALUES(&quot;sushu&quot;,90000);
+-- INSERT INTO employees(name,salary) VALUES(&quot;susi&quot;,100000);
+-- INSERT INTO employees(name,salary) VALUES(&quot;space&quot;,110000);
+-- select*from employees where id=5;
+-- select * from employees where id=3 and name='sony';
+-- UPDATE employees SET name = &quot;kavin raj&quot;, salary = 35000 WHERE id = 3
+-- select * from employees ORDER BY name ASC, salary DESC;
+-- select * from employees ORDER BY  salary DESC;
+-- SELECT DISTINCT name FROM employees;
+-- SELECT * FROM employees WHERE name = 'John Doe' and salary = 5000
+-- SELECT * FROM employees WHERE name = 'John Doe' or  salary &lt; 50000
+-- SELECT * FROM employees WHERE NOT name = 'John Doe'
+--  DELETE FROM employees WHERE id =10;
+-- SELECT min(salary) FROM employees;
+-- SELECT max(salary) FROM employees;
+-- SELECT count(salary) FROM employees;
+-- SELECT * FROM employees WHERE salary &lt;50000;
+-- SELECT avg(salary) FROM employees;
+-- SELECT avg(salary) FROM employees WHERE salary &lt;50000;
+--  SELECT sum(salary) FROM employees;
+--  SELECT sum(salary) FROM employees WHERE salary &gt; 10000;
+--  SELECT * FROM employees WHERE name like '%j'
+-- SELECT * FROM employees GROUP BY salary;
+
+select*from employees</sql><current_tab id="0"/></tab_sql></sqlb_project>

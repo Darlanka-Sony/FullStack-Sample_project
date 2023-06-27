@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+    color:white;
+    font-family:'Times New Roman',Times,Serif;
+}
+.ele{
+    margin: 10px;
+    border: 10rem;
+    font-size: 35;
+    text-align: center;
+    background-color: grey;
+    padding:2%;
+    border-radius: 30px;
+}
+.button {
+    background-color: skyblue;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
+  .button1 {
+    background-color: red;
+    color: black;
+    width:40px;    
+    height: 80px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
+  .button2 {
+    background-color: green;
+    color: black;
+    width:80px;    
+    height: 80px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button3 {
+    background-color: pink;
+    color: black;
+    width:80px;    
+    height: 40px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button4 {
+    background-color: white;
+    color: black;
+    padding: 25px 10px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 64px;
+  }

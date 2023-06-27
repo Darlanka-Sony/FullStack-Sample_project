@@ -1,0 +1,38 @@
+.box{
+    margin: 5rem;
+    padding: 5px;
+    border: 5px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction:row-reverse;
+    flex-wrap:wrap;
+  }
+  
+  /* The flex container properties are:
+
+    flex-direction
+    flex-wrap
+    flex-flow
+    justify-content
+    align-items
+    align-content */
+
+
+    /* .flex-container {
+        display: flex;
+        /* flex-direction: column; */
+/* flex-direction: column-reverse; */
+/* flex-direction: row;*/
+/* flex-direction: row-reverse;  */
+/* flex-wrap: wrap;  
+/* flex-wrap: wrap-reverse; */
+/* flex-wrap: nowrap; */
+/* justify-content: center; */
+/* justify-content: end;
+flex-flow: column;
+align-items: flex-start;
+align-content: end;
+} */ 
+    
